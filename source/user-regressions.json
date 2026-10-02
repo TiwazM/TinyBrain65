@@ -1,0 +1,19 @@
+[
+  ["total-memory", "how much memory do you have"],
+  ["cpu-name", "what cpu do you have"],
+  ["cpu-speed", "what is your cpu speed"],
+  ["identity", "what are you"],
+  ["identity", "hello"],
+  ["game-launch", "how do i run a game"],
+  ["load-program", "how do i load a program"],
+  ["list-files", "how do i list files"],
+  ["list-program", "how do i list program lines"],
+  ["unknown", "what is the temperature of the cpu"],
+  ["game-launch", "how do i start a game"],
+  ["launch-prg", "how do i start a prg"],
+  ["launch-d81", "how do i start a d81"],
+  ["mount-load-run", "how do i mount dload run"],
+  ["graphics-chip", "what do you use for graphics"],
+  ["unknown", "how much hard drive do you have"],
+  ["load-prg-sd", "how do i load a basic prg from sd"]
+]

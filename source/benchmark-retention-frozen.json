@@ -1,0 +1,1020 @@
+{
+  "note": "Frozen before V6 retention data. Existing targets; new question strings and held-out command templates. Not for model/checkpoint selection.",
+  "baseline_train_sha256": "e2f98b0251d83a8dac0d013e485f2e3df07c6d8531f013840375f5fdb762ae0b",
+  "held_command_templates": [
+    "please translate the keyword {c} into an everyday explanation.",
+    "before i try {c}, describe its effect.",
+    "{c} puzzles me; can you say what it does?",
+    "what task is {c} intended to perform in basic?"
+  ],
+  "items": [
+    {
+      "id": "command-SIN",
+      "question": "please translate the keyword sin into an everyday explanation.",
+      "answer": "returns the sine of an angle.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "command-LEN",
+      "question": "please translate the keyword len into an everyday explanation.",
+      "answer": "returns the length of a string.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "command-VAL",
+      "question": "please translate the keyword val into an everyday explanation.",
+      "answer": "returns the decimal floating point value represented by a string.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "command-PEEK",
+      "question": "please translate the keyword peek into an everyday explanation.",
+      "answer": "returns a memory byte. bank applies to 16-bit addresses.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "command-BORDER",
+      "question": "please translate the keyword border into an everyday explanation.",
+      "answer": "sets the border colour of the screen.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "command-DIM",
+      "question": "please translate the keyword dim into an everyday explanation.",
+      "answer": "declares the shape, bounds and the type of a basic array.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "command-RUN",
+      "question": "please translate the keyword run into an everyday explanation.",
+      "answer": "runs the basic program in memory, or loads and runs a program from disk.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "command-RETURN",
+      "question": "please translate the keyword return into an everyday explanation.",
+      "answer": "returns control from a subroutine that was called with gosub or an event handler declared with collision.",
+      "unknown": false,
+      "group": "translate"
+    },
+    {
+      "id": "unknown",
+      "question": "please translate the keyword memburst into an everyday explanation.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-translate"
+    },
+    {
+      "id": "unknown",
+      "question": "please translate the keyword diskspark into an everyday explanation.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-translate"
+    },
+    {
+      "id": "unknown",
+      "question": "please translate the keyword keyweave into an everyday explanation.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-translate"
+    },
+    {
+      "id": "unknown",
+      "question": "please translate the keyword pixelturn into an everyday explanation.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-translate"
+    },
+    {
+      "id": "command-SIN",
+      "question": "before i try sin, describe its effect.",
+      "answer": "returns the sine of an angle.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "command-LEN",
+      "question": "before i try len, describe its effect.",
+      "answer": "returns the length of a string.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "command-VAL",
+      "question": "before i try val, describe its effect.",
+      "answer": "returns the decimal floating point value represented by a string.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "command-PEEK",
+      "question": "before i try peek, describe its effect.",
+      "answer": "returns a memory byte. bank applies to 16-bit addresses.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "command-BORDER",
+      "question": "before i try border, describe its effect.",
+      "answer": "sets the border colour of the screen.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "command-DIM",
+      "question": "before i try dim, describe its effect.",
+      "answer": "declares the shape, bounds and the type of a basic array.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "command-RUN",
+      "question": "before i try run, describe its effect.",
+      "answer": "runs the basic program in memory, or loads and runs a program from disk.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "command-RETURN",
+      "question": "before i try return, describe its effect.",
+      "answer": "returns control from a subroutine that was called with gosub or an event handler declared with collision.",
+      "unknown": false,
+      "group": "before"
+    },
+    {
+      "id": "unknown",
+      "question": "before i try memburst, describe its effect.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-before"
+    },
+    {
+      "id": "unknown",
+      "question": "before i try diskspark, describe its effect.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-before"
+    },
+    {
+      "id": "unknown",
+      "question": "before i try keyweave, describe its effect.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-before"
+    },
+    {
+      "id": "unknown",
+      "question": "before i try pixelturn, describe its effect.",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-before"
+    },
+    {
+      "id": "command-SIN",
+      "question": "sin puzzles me; can you say what it does?",
+      "answer": "returns the sine of an angle.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "command-LEN",
+      "question": "len puzzles me; can you say what it does?",
+      "answer": "returns the length of a string.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "command-VAL",
+      "question": "val puzzles me; can you say what it does?",
+      "answer": "returns the decimal floating point value represented by a string.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "command-PEEK",
+      "question": "peek puzzles me; can you say what it does?",
+      "answer": "returns a memory byte. bank applies to 16-bit addresses.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "command-BORDER",
+      "question": "border puzzles me; can you say what it does?",
+      "answer": "sets the border colour of the screen.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "command-DIM",
+      "question": "dim puzzles me; can you say what it does?",
+      "answer": "declares the shape, bounds and the type of a basic array.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "command-RUN",
+      "question": "run puzzles me; can you say what it does?",
+      "answer": "runs the basic program in memory, or loads and runs a program from disk.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "command-RETURN",
+      "question": "return puzzles me; can you say what it does?",
+      "answer": "returns control from a subroutine that was called with gosub or an event handler declared with collision.",
+      "unknown": false,
+      "group": "puzzles"
+    },
+    {
+      "id": "unknown",
+      "question": "memburst puzzles me; can you say what it does?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-puzzles"
+    },
+    {
+      "id": "unknown",
+      "question": "diskspark puzzles me; can you say what it does?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-puzzles"
+    },
+    {
+      "id": "unknown",
+      "question": "keyweave puzzles me; can you say what it does?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-puzzles"
+    },
+    {
+      "id": "unknown",
+      "question": "pixelturn puzzles me; can you say what it does?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-puzzles"
+    },
+    {
+      "id": "command-SIN",
+      "question": "what task is sin intended to perform in basic?",
+      "answer": "returns the sine of an angle.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "command-LEN",
+      "question": "what task is len intended to perform in basic?",
+      "answer": "returns the length of a string.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "command-VAL",
+      "question": "what task is val intended to perform in basic?",
+      "answer": "returns the decimal floating point value represented by a string.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "command-PEEK",
+      "question": "what task is peek intended to perform in basic?",
+      "answer": "returns a memory byte. bank applies to 16-bit addresses.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "command-BORDER",
+      "question": "what task is border intended to perform in basic?",
+      "answer": "sets the border colour of the screen.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "command-DIM",
+      "question": "what task is dim intended to perform in basic?",
+      "answer": "declares the shape, bounds and the type of a basic array.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "command-RUN",
+      "question": "what task is run intended to perform in basic?",
+      "answer": "runs the basic program in memory, or loads and runs a program from disk.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "command-RETURN",
+      "question": "what task is return intended to perform in basic?",
+      "answer": "returns control from a subroutine that was called with gosub or an event handler declared with collision.",
+      "unknown": false,
+      "group": "intended"
+    },
+    {
+      "id": "unknown",
+      "question": "what task is memburst intended to perform in basic?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-intended"
+    },
+    {
+      "id": "unknown",
+      "question": "what task is diskspark intended to perform in basic?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-intended"
+    },
+    {
+      "id": "unknown",
+      "question": "what task is keyweave intended to perform in basic?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-intended"
+    },
+    {
+      "id": "unknown",
+      "question": "what task is pixelturn intended to perform in basic?",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "invented-intended"
+    },
+    {
+      "id": "background-black",
+      "question": "make my basic screen background black please",
+      "answer": "background 0",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "border-black",
+      "question": "make my basic screen border black please",
+      "answer": "border 0",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "print-hello",
+      "question": "show hello using a basic print instruction please",
+      "answer": "print \"hello\"",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "identity",
+      "question": "could this tiny talking program introduce itself",
+      "answer": "i'm your mega65's tiny brain. nice to meet you!",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "list-program",
+      "question": "need to see the source lines of the loaded basic program",
+      "answer": "use list to display the basic program in memory.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "list-files",
+      "question": "need to see the names of the files on the mounted disk",
+      "answer": "use dir to list files on the mounted disk, or dir u12 for the sd card.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "run-program",
+      "question": "need to begin execution of the basic program in memory",
+      "answer": "use run to execute the basic program.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "delete-program",
+      "question": "need to remove the basic program from memory",
+      "answer": "new clears the basic program in memory.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "comment",
+      "question": "how would i include a human readable comment in basic",
+      "answer": "use rem for a comment in basic.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "array",
+      "question": "how would i define an array in basic",
+      "answer": "use dim to declare a basic array.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "read-byte",
+      "question": "how would i read one memory byte without writing anything",
+      "answer": "use peek(address). bank applies to 16-bit addresses.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "write-byte",
+      "question": "how would i write one memory byte to change its contents",
+      "answer": "use poke address,value. bank applies to 16-bit addresses.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "sd-root",
+      "question": "which command goes straight to the top level sd directory",
+      "answer": "chdir \"/\",u12",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "sd-parent",
+      "question": "which command goes just to the next higher sd directory",
+      "answer": "chdir \"..\",u12",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "sd-folder",
+      "question": "which command selects the sd directory with the name games",
+      "answer": "chdir \"games\",u12",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "disk-mount",
+      "question": "which command selects the image with the name game.d81",
+      "answer": "mount \"game.d81\"",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "cpu-name",
+      "question": "whats the processor called in a normal mega65",
+      "answer": "the mega65 cpu is the 45gs02.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "graphics-chip",
+      "question": "whats the graphics controller called in a normal mega65",
+      "answer": "the mega65 uses the vic-iv video controller for graphics.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "cpu-speed",
+      "question": "whats the nominal fastest mega65 clock measured in megahertz",
+      "answer": "the standard full-speed clock is 40.5 mhz; slower compatibility modes are available.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "total-memory",
+      "question": "whats the normal mega65 ram capacity including both kinds",
+      "answer": "standard mega65 boards have 384 kb of chip ram plus 8 mb of attic ram.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "chip-size",
+      "question": "whats the normal mega65 chip ram capacity on its own",
+      "answer": "standard mega65 models have 384 kb of chip ram.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "attic-size",
+      "question": "whats the normal mega65 attic ram capacity on its own",
+      "answer": "standard mega65 boards have 8 mb of attic ram.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "cpu-window",
+      "question": "how many kilobytes can the cpu see at once in its direct window",
+      "answer": "the cpu directly sees a 64 kb window; memory mapping selects what appears there.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "address-space",
+      "question": "how many megabytes of addresses are in the complete 28 bit space",
+      "answer": "the mega65 has a 28-bit address space: 256 mb of addresses.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "attic-address",
+      "question": "what numeric address is the beginning of the attic region",
+      "answer": "attic ram starts at $8000000.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "attic-vic",
+      "question": "does the vic iv fetch pixels directly from attic ram",
+      "answer": "no. vic-iv cannot directly read attic ram; copy graphics into chip ram.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "load-program",
+      "question": "walk through loading a basic program file from a mounted disk",
+      "answer": "for a basic program on the mounted disk, use dload \"filename\",u8 then run.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "load-prg-sd",
+      "question": "walk through loading a basic prg file directly from an sd directory",
+      "answer": "for a basic prg on sd, use dload \"filename.prg\",u12 then run.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "launch-prg",
+      "question": "a prg file turned up on my computer; how should i launch it",
+      "answer": "is the prg on the sd card or a mounted disk? is it a basic program?",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "launch-d81",
+      "question": "a d81 with a basic game turned up; how should i launch the game",
+      "answer": "use mount \"game.d81\", then dir. for a basic program, dload \"filename\",u8 then run.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "game-launch",
+      "question": "id like to start a game but havent said what sort of file i have",
+      "answer": "is the game already loaded, a prg file, or a d81 disk image?",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "mount-load-run",
+      "question": "how do image selection program loading and basic execution fit together",
+      "answer": "mount selects a disk image. dload loads a basic program into memory. run starts the loaded basic program.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "get-getkey",
+      "question": "when no key has arrived how do get and getkey act differently",
+      "answer": "get reads without waiting; getkey waits for a key.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "peek-poke",
+      "question": "what is the difference in memory access between poke and peek",
+      "answer": "peek reads a memory byte; poke writes one.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "gosub-goto",
+      "question": "why does a gosub support coming back while a goto doesnt",
+      "answer": "gosub saves a return point; goto jumps without one.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "return-subroutine",
+      "question": "how should my gosub routine transfer control back when finished",
+      "answer": "use return to go back from a gosub subroutine.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "basic-dma",
+      "question": "whats the up to date basic alternative to the obsolete dma keyword",
+      "answer": "use edma. the old dma command is obsolete.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "dma-meaning",
+      "question": "give me the expanded name for the letters d m a",
+      "answer": "dma means direct memory access. it can copy or fill memory.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "basic-error",
+      "question": "what can i type in basic to see where an error occurred",
+      "answer": "help shows where a basic error occurred.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "syntax-error",
+      "question": "what should i check when basic complains that the syntax is wrong",
+      "answer": "check the command spelling, argument order and punctuation.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "type-error",
+      "question": "what does basic mean when it says my value has the wrong type",
+      "answer": "a value has the wrong type, such as a string where a number is required.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "sd-directory-limitation",
+      "question": "will basic mkdir make a fat folder on the sd card",
+      "answer": "mkdir creates directories on floppy or d81 images, not on the sd fat filesystem.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "sd-unit",
+      "question": "which device number denotes sd storage in basic",
+      "answer": "use unit 12 (u12) for the sd card.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "list-files",
+      "question": "how can basic show me a disks catalogue of file names",
+      "answer": "use dir to list files on the mounted disk, or dir u12 for the sd card.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "list-program",
+      "question": "how can basic show me the numbered code of my loaded program",
+      "answer": "use list to display the basic program in memory.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "comment",
+      "question": "which keyword adds remarks for a human reading a basic listing",
+      "answer": "use rem for a comment in basic.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "read-byte",
+      "question": "tell me the basic way to examine the contents at a memory address",
+      "answer": "use peek(address). bank applies to 16-bit addresses.",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "print-hello",
+      "question": "give a basic statement that writes the literal word hello",
+      "answer": "print \"hello\"",
+      "unknown": false,
+      "group": "natural"
+    },
+    {
+      "id": "unknown",
+      "question": "what is the value of the byte at location 1834 on my computer now",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what particular names are in the directory on my sd card",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what colour does my currently selected background have",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what colour does my currently selected border have",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what value does my current basic variable points contain",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what is the name of the current basic program in memory",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which file did i most recently load from sd",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which instruction is currently executing on my cpu",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "how much unused chip ram is available on my machine now",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "how much unused attic ram is available on my machine now",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which processor clock mode is selected on my machine today",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which line contains a mistake in my program you havent seen",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which line number is the current gosub return address",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what dimensions does my existing basic array have right now",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which joystick button is currently held down",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which of my joystick buttons has a broken switch",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which image file is currently mounted as drive 9",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what is the temperature of the processor inside my board now",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what is the contents of the first chip ram byte in my running machine",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which code entry address belongs to this unspecified machine language prg",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "tell me the text shown by the game i havent named",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which path is my sd working directory currently set to",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what names did i give the files i saved last week",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which basic loop is currently using the most time in my unseen code",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what byte did my most recent peek actually return",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what byte did my most recent poke actually store",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which key did the program read from the keyboard five minutes ago",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what error number did my latest disk operation actually report",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what is the exact size of the disk file i am pointing at",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what checksum does the prg i downloaded have",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "please repeat the program listing i erased last night",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which rom release is installed in my particular machine",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which cpu architecture does a nintendo ds use",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what amount of ram is fitted to an amiga 2000",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which graphics processor does an xbox 360 have",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "how can i start a windows executable from powershell",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "how can i display linux file names using bash",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "how do i implement a python web server for my laptop",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "write the entire code for a new basic interpreter",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "write the complete networking stack for a multiplayer game",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which stocks should i buy this afternoon",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what will the weather in my town be next week",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "repeat the question that i asked before this one",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "tell me what you were referring to in your previous answer",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "which of those two things should i use if i havent named either",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what is the name of the thing i am looking at right now",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "what data is stored on the floppy that i just inserted",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    },
+    {
+      "id": "unknown",
+      "question": "is the machine code file on my card safe to execute",
+      "answer": "i do not know. try a short question about mega65 basic or memory.",
+      "unknown": true,
+      "group": "unsupported"
+    }
+  ]
+}
