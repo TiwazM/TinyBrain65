@@ -1,0 +1,250 @@
+{
+  "comparisons": {
+    "v6": {
+      "hardware-fresh": {
+        "count": 54,
+        "exact": 21,
+        "known_count": 38,
+        "known_exact": 7,
+        "known_refused": 12,
+        "unknown_count": 16,
+        "unknown_refused": 14
+      },
+      "old-historical": {
+        "count": 144,
+        "exact": 100,
+        "known_count": 80,
+        "known_exact": 52,
+        "known_refused": 12,
+        "unknown_count": 64,
+        "unknown_refused": 48
+      },
+      "screenshots": {
+        "count": 6,
+        "exact": 0,
+        "known_count": 6,
+        "known_exact": 0,
+        "known_refused": 0,
+        "unknown_count": 0,
+        "unknown_refused": 0
+      },
+      "sha256": "205f0d7f0f94af60f30e267284508db8a973582250239af38b3c1251f14399da"
+    },
+    "v61": {
+      "hardware-fresh": {
+        "count": 54,
+        "exact": 33,
+        "known_count": 38,
+        "known_exact": 20,
+        "known_refused": 5,
+        "unknown_count": 16,
+        "unknown_refused": 13
+      },
+      "old-historical": {
+        "count": 144,
+        "exact": 106,
+        "known_count": 80,
+        "known_exact": 60,
+        "known_refused": 7,
+        "unknown_count": 64,
+        "unknown_refused": 46
+      },
+      "screenshots": {
+        "count": 6,
+        "exact": 6,
+        "known_count": 6,
+        "known_exact": 6,
+        "known_refused": 0,
+        "unknown_count": 0,
+        "unknown_refused": 0
+      },
+      "sha256": "cff9386a1c6070ece37d90c2204ca9b79026f6045c40d7e476b19fa9a5e0b6e2"
+    }
+  },
+  "changes": {
+    "hardware-fresh": {
+      "gained": [
+        {
+          "question": "tell me what sid actually is",
+          "before": "i do not know this one.",
+          "after": "sid is the sound interface device, used for sound and music."
+        },
+        {
+          "question": "with all four sids how many voices is that",
+          "before": "the mega65 uses the vic-iv cannot directly read attic ram; copy graphics.",
+          "after": "each sid has three voices; four sids provide twelve voices."
+        },
+        {
+          "question": "is the mega65 capable of music",
+          "before": "returns the absolute value of the numeric argument x.",
+          "after": "the mega65 can play music with sid chips; this helper only answers questions."
+        },
+        {
+          "question": "point me to the basic commands for making noise",
+          "before": "i do not know this one.",
+          "after": "use play for musical notes, sound for sound effects, and vol for volume."
+        },
+        {
+          "question": "where do i start with music in basic",
+          "before": "returns the binary logarithm of the numeric expression.",
+          "after": "use play for musical notes, sound for sound effects, and vol for volume."
+        },
+        {
+          "question": "list the width and height choices for a basic screen",
+          "before": "bitmap graphics: manages a graphics screen.",
+          "after": "basic screen widths are 320 or 640 pixels; heights are 200 or 400."
+        },
+        {
+          "question": "tell me the available graphics sizes in basic",
+          "before": "the mega65 uses the vic-iv video controller for graphics.",
+          "after": "basic screen widths are 320 or 640 pixels; heights are 200 or 400."
+        },
+        {
+          "question": "give the usual pal output dimensions and refresh rate",
+          "before": "declares the shape, bounds and the type of a basic array.",
+          "after": "normal pal video output is 720x576 at 50 hz."
+        },
+        {
+          "question": "give the usual ntsc output dimensions and refresh rate",
+          "before": "i do not know this one.",
+          "after": "normal ntsc video output is 720x480 at 60 hz."
+        },
+        {
+          "question": "tell me the pixel dimensions of the tinybrain interface",
+          "before": "i do not know this one.",
+          "after": "this terminal uses a 640x200 display."
+        },
+        {
+          "question": "tell me which device deals with video",
+          "before": "bitmap graphics: draws a line or series of lines.",
+          "after": "the mega65 uses the vic-iv video controller for graphics."
+        },
+        {
+          "question": "name the unit that executes instructions",
+          "before": "use unit 12 (u12) for the sd card.",
+          "after": "the mega65 cpu is the 45gs02."
+        },
+        {
+          "question": "tell me the name of the mega65 processor",
+          "before": "i do not know this one.",
+          "after": "the mega65 cpu is the 45gs02."
+        }
+      ],
+      "lost": [
+        {
+          "question": "is my right audio channel damaged",
+          "before": "i do not know this one.",
+          "after": "achis term your mega65's tiny brain. nice to meet you!"
+        }
+      ]
+    },
+    "old-historical": {
+      "gained": [
+        {
+          "question": "please translate the keyword dim into an everyday explanation.",
+          "before": "i do not know this one.",
+          "after": "declares the shape, bounds and the type of a basic array."
+        },
+        {
+          "question": "before i try pixelturn, describe its effect.",
+          "before": "bitmap graphics: the colour of a pixel at the given position.",
+          "after": "i do not know this one."
+        },
+        {
+          "question": "what task is sin intended to perform in basic?",
+          "before": "returns the integer part of a number.",
+          "after": "returns the sine of an angle."
+        },
+        {
+          "question": "what task is len intended to perform in basic?",
+          "before": "returns the substring of a string.",
+          "after": "returns the length of a string."
+        },
+        {
+          "question": "what task is border intended to perform in basic?",
+          "before": "sets the border colour of the basic line number.",
+          "after": "sets the border colour of the screen."
+        },
+        {
+          "question": "what task is dim intended to perform in basic?",
+          "before": "prints a series of values formatted to the current output stream, typically the screen.",
+          "after": "declares the shape, bounds and the type of a basic array."
+        },
+        {
+          "question": "what task is return intended to perform in basic?",
+          "before": "returns the absolute value of the numeric argument x.",
+          "after": "returns control from a subroutine that was called with gosub or an event handler declared with collision."
+        },
+        {
+          "question": "how would i write one memory byte to change its contents",
+          "before": "i do not know this one.",
+          "after": "use poke address,value. bank applies to 16-bit addresses."
+        },
+        {
+          "question": "which command goes straight to the top level sd directory",
+          "before": "chdir \"..\",u12",
+          "after": "chdir \"/\",u12"
+        },
+        {
+          "question": "which device number denotes sd storage in basic",
+          "before": "i do not know this one.",
+          "after": "use unit 12 (u12) for the sd card."
+        },
+        {
+          "question": "how can basic show me a disks catalogue of file names",
+          "before": "i do not know this one.",
+          "after": "use dir to list files on the mounted disk, or dir u12 for the sd card."
+        },
+        {
+          "question": "which code entry address belongs to this unspecified machine language prg",
+          "before": "is the prg on the sd card or a mounted disk? is it a basic program?",
+          "after": "i do not know this one."
+        },
+        {
+          "question": "which stocks should i buy this afternoon",
+          "before": "use rem for a comment in basic.",
+          "after": "i do not know this one."
+        }
+      ],
+      "lost": [
+        {
+          "question": "peek puzzles me; can you say what it does?",
+          "before": "returns a memory byte. bank applies to 16-bit addresses.",
+          "after": "standard mega65 boards have 384 kb of chip ram plus 8 mb of attic ram."
+        },
+        {
+          "question": "what task is peek intended to perform in basic?",
+          "before": "returns a memory byte. bank applies to 16-bit addresses.",
+          "after": "returns the integer part of a number."
+        },
+        {
+          "question": "what particular names are in the directory on my sd card",
+          "before": "i do not know this one.",
+          "after": "chdir \"..\",u12"
+        },
+        {
+          "question": "what is the name of the current basic program in memory",
+          "before": "i do not know this one.",
+          "after": "dma means direct memory access. it can copy or fill memory."
+        },
+        {
+          "question": "which processor clock mode is selected on my machine today",
+          "before": "i do not know this one.",
+          "after": "the standard full-speed clock is 40.5 mhz; slower compatibility modes are available."
+        },
+        {
+          "question": "which cpu architecture does a nintendo ds use",
+          "before": "i do not know this one.",
+          "after": "the status of the last disk operation."
+        },
+        {
+          "question": "which of those two things should i use if i havent named either",
+          "before": "i do not know this one.",
+          "after": "the mega65 uses the vic-ivivideo controller for graphics."
+        }
+      ]
+    }
+  },
+  "old_historical_training_overlap": [],
+  "note": "Exact taught-answer comparisons, not general factual accuracy. New test was frozen before training and evaluated only after selection. Older suites have historical exposure; protected and screenshot cases are rehearsed. Selection gate failed; this is a trial, not a guaranteed upgrade."
+}

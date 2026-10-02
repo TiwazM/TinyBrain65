@@ -1,0 +1,18 @@
+{
+  "bytes": 128000,
+  "sha256": "d3439679f6eca5a188a8b24d7a171e82a12bb6b4130b89467bfd6a00314b9536",
+  "width": 640,
+  "height": 200,
+  "tile_bytes": 64,
+  "first_tile": 4096,
+  "palette_first": 32,
+  "palette_count": 64,
+  "scanlines": false,
+  "runtime_filter": false,
+  "foreground_text_blurred": false,
+  "halo_strength": {
+    "near": 78,
+    "wide": 20
+  },
+  "vignette_strength": 14
+}

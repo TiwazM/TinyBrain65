@@ -1,0 +1,848 @@
+{
+  "fast": true,
+  "disk": true,
+  "real_sd": true,
+  "folder": false,
+  "production": true,
+  "controls": {
+    "blinking_block_cursor": true,
+    "hardware_f1": true
+  },
+  "prg_sha256": "291c7c0232f4ce1d360c7ce5f75ea8072e3102b34cc8e68f335f133c5c1d351e",
+  "model_sha256": "cff9386a1c6070ece37d90c2204ca9b79026f6045c40d7e476b19fa9a5e0b6e2",
+  "results": [
+    {
+      "question": "what is the sid chip",
+      "answer": "sid is the sound interface device, used for sound and music.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 8,
+      "answer_tokens": 21,
+      "seconds": 2,
+      "wall_seconds": 1.9657952999987174,
+      "first_token_seconds": 1,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.0041841999991447665,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.4581806999995024,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.533949600001506,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.6098857000033604,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.6860825000039767,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.7360063000014634,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 0.8102864000029513,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 0.8866496000046027,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 0.9618821000040043,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 1.0133714000039618,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 1.0895851000022958,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.1645492000025115,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.240988000005018,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.2904170000037993,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.3663636999990558,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.4437870000037947,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 1.5207461000027251,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 1.5973793000011938,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 1.64743570000428,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 1.7231494000006933,
+          "state": 2,
+          "tokens": 19
+        },
+        {
+          "wall_seconds": 1.8007972000050358,
+          "state": 2,
+          "tokens": 20
+        },
+        {
+          "wall_seconds": 1.8810587000043597,
+          "state": 2,
+          "tokens": 21
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   checking model... ok.\n   ready.\n\n   you> what is the sid chip\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n\n\n\n\n\n   waiting for question\n\n\n   done 21  |  0:02                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 0
+    },
+    {
+      "question": "what is a sid",
+      "answer": "sid is the sound interface device, used for sound and music.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 7,
+      "answer_tokens": 21,
+      "seconds": 2,
+      "wall_seconds": 1.9224064000009093,
+      "first_token_seconds": 1,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.005162900000868831,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.3855903000003309,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.4603408999973908,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.5363704999981564,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.6112015999970026,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.6622557000009692,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 0.770346299999801,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 0.8473158999986481,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 0.8984321000025375,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 0.9745651999983238,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 1.0505166000002646,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.1264446999994107,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.1772225000022445,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.2538696999981767,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.3305461999989348,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.405650799999421,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 1.4824078000019654,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 1.5336128999988432,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 1.609440899999754,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 1.6857394999969983,
+          "state": 2,
+          "tokens": 19
+        },
+        {
+          "wall_seconds": 1.7634698999972898,
+          "state": 2,
+          "tokens": 20
+        },
+        {
+          "wall_seconds": 1.8427183000021614,
+          "state": 2,
+          "tokens": 21
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   checking model... ok.\n   ready.\n\n   you> what is the sid chip\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n   you> what is a sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n\n\n   waiting for question\n   _\n\n   done 21  |  0:02                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 0
+    },
+    {
+      "question": "can you make music",
+      "answer": "the mega65 can play music with sid chips; this helper only answers questions.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 11,
+      "answer_tokens": 26,
+      "seconds": 3,
+      "wall_seconds": 2.5565853000007337,
+      "first_token_seconds": 1,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.005752599994593766,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.6739028999945731,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.7483767999947304,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.8239638999948511,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.8738975000014761,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.9506073999946238,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 1.0249594999986584,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 1.1016702999986592,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 1.1764991999953054,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 1.2527434000003268,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 1.329714799998328,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.4078169999993406,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.4832495999944513,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.534711399996013,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.6103052999969805,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.6863315999944462,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 1.7627730999956839,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 1.837093599999207,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 1.914116699997976,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 1.993723499996122,
+          "state": 2,
+          "tokens": 19
+        },
+        {
+          "wall_seconds": 2.069471299997531,
+          "state": 2,
+          "tokens": 20
+        },
+        {
+          "wall_seconds": 2.1215774999946007,
+          "state": 2,
+          "tokens": 21
+        },
+        {
+          "wall_seconds": 2.1980057999971905,
+          "state": 2,
+          "tokens": 22
+        },
+        {
+          "wall_seconds": 2.274409400000877,
+          "state": 2,
+          "tokens": 23
+        },
+        {
+          "wall_seconds": 2.3507715000014286,
+          "state": 2,
+          "tokens": 24
+        },
+        {
+          "wall_seconds": 2.4015666999985115,
+          "state": 2,
+          "tokens": 25
+        },
+        {
+          "wall_seconds": 2.4776501999949687,
+          "state": 2,
+          "tokens": 26
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n\n   you> what is the sid chip\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n   you> what is a sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n   you> can you make music\n   tinybrain> the mega65 can play music with sid chips; this helper only\n   answers questions.\n\n   waiting for question\n   _\n\n   done 26  |  0:03                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 2
+    },
+    {
+      "question": "what do you use for graphics",
+      "answer": "the mega65 uses the vic-iv video controller for graphics.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 9,
+      "answer_tokens": 19,
+      "seconds": 3,
+      "wall_seconds": 1.9976580000002286,
+      "first_token_seconds": 1,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.005705700001271907,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.5733013999997638,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.6492531999974744,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.6997659999979078,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.7764027000011993,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.8547527999980957,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 0.9344980000023497,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 1.0115936000001966,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 1.089241800000309,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 1.166847400003462,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 1.2169642000008025,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.294527999998536,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.3722772999972221,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.4798399999999674,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.5593149999986053,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.63807110000198,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 1.7147259999983362,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 1.7665248999983305,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 1.8413409999993746,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 1.9163702000005287,
+          "state": 2,
+          "tokens": 19
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n\n   you> what is a sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n   you> can you make music\n   tinybrain> the mega65 can play music with sid chips; this helper only\n   answers questions.\n\n   you> what do you use for graphics\n   tinybrain> the mega65 uses the vic-iv video controller for graphics.\n\n   waiting for question\n\n\n   done 19  |  0:03                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 5
+    },
+    {
+      "question": "what is your cpu speed",
+      "answer": "the standard full-speed clock is 40.5 mhz; slower compatibility modes are available.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 8,
+      "answer_tokens": 18,
+      "seconds": 2,
+      "wall_seconds": 1.815284900003462,
+      "first_token_seconds": 0,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.005087099998490885,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.5031952999997884,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.6082700000042678,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.6588183999992907,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.7364446999999927,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.8136853000032715,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 0.8899711999983992,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 0.9406986000030884,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 1.0171723000021302,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 1.0948687000054633,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 1.1730463999992935,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.247008199999982,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.2977934000009554,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.373879400001897,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.4497560000017984,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.5264443999985815,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 1.6043425000025309,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 1.6546760000055656,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 1.7303092000001925,
+          "state": 2,
+          "tokens": 18
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   you> can you make music\n   tinybrain> the mega65 can play music with sid chips; this helper only\n   answers questions.\n\n   you> what do you use for graphics\n   tinybrain> the mega65 uses the vic-iv video controller for graphics.\n\n   you> what is your cpu speed\n   tinybrain> the standard full-speed clock is 40.5 mhz; slower compatibility\n   modes are available.\n\n   waiting for question\n\n\n   done 18  |  0:02                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 9
+    },
+    {
+      "question": "what are you",
+      "answer": "i'm your mega65's tiny brain. nice to meet you!",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 6,
+      "answer_tokens": 15,
+      "seconds": 2,
+      "wall_seconds": 1.4035559000039939,
+      "first_token_seconds": 1,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.00437190000229748,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.3582375000041793,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.43385850000049686,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.48465679999935674,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.56040600000415,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.6360863000008976,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 0.6873664000013378,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 0.7626231000031112,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 0.8428545999995549,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 0.918739300002926,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 0.9698772000047029,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.0462453000000096,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.1215513999995892,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.1974307000054978,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.272656699999061,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.3232906999983243,
+          "state": 2,
+          "tokens": 15
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n\n   you> what do you use for graphics\n   tinybrain> the mega65 uses the vic-iv video controller for graphics.\n\n   you> what is your cpu speed\n   tinybrain> the standard full-speed clock is 40.5 mhz; slower compatibility\n   modes are available.\n\n   you> what are you\n   tinybrain> i'm your mega65's tiny brain. nice to meet you!\n\n   waiting for question\n\n\n   done 15  |  0:02                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 12
+    },
+    {
+      "question": "what is my current screen resolution",
+      "answer": "i do not know this one.",
+      "abstained": true,
+      "gate_token": 6,
+      "prompt_tokens": 9,
+      "answer_tokens": 0,
+      "seconds": 1,
+      "wall_seconds": 0.47189789999538334,
+      "first_token_seconds": 1,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.004737099996418692,
+          "state": 1,
+          "tokens": 0
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n\n   you> what is your cpu speed\n   tinybrain> the standard full-speed clock is 40.5 mhz; slower compatibility\n   modes are available.\n\n   you> what are you\n   tinybrain> i'm your mega65's tiny brain. nice to meet you!\n\n   you> what is my current screen resolution\n   tinybrain> i do not know this one.\n\n   waiting for question\n   _\n\n   unsure 0  |  0:01                                 V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 15
+    },
+    {
+      "question": "shall we play a game?",
+      "answer": "HOW ABOUT GLOBAL THERMONUCLEAR WAR?",
+      "abstained": false,
+      "gate_token": 0,
+      "prompt_tokens": 15,
+      "answer_tokens": 0,
+      "seconds": 0,
+      "wall_seconds": 0.009245599998394027,
+      "first_token_seconds": 0,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.005936000001383945,
+          "state": 3,
+          "tokens": 0
+        }
+      ],
+      "scripted_reply": true,
+      "answer_matches_expected": true,
+      "native_tokens_exact": false,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   modes are available.\n\n   you> what are you\n   tinybrain> i'm your mega65's tiny brain. nice to meet you!\n\n   you> what is my current screen resolution\n   tinybrain> i do not know this one.\n\n   you> shall we play a game?\n   tinybrain> HOW ABOUT GLOBAL THERMONUCLEAR WAR?\n\n   waiting for question\n\n\n   done 0  |  0:00                                   V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 18
+    },
+    {
+      "question": "no",
+      "answer": "A STRANGE GAME. THE ONLY WINNING MOVE IS NOT TO PLAY.",
+      "abstained": false,
+      "gate_token": 0,
+      "prompt_tokens": 5,
+      "answer_tokens": 0,
+      "seconds": 0,
+      "wall_seconds": 0.008386300003621727,
+      "first_token_seconds": 0,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.00527190000138944,
+          "state": 3,
+          "tokens": 0
+        }
+      ],
+      "scripted_reply": true,
+      "answer_matches_expected": true,
+      "native_tokens_exact": false,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   tinybrain> i'm your mega65's tiny brain. nice to meet you!\n\n   you> what is my current screen resolution\n   tinybrain> i do not know this one.\n\n   you> shall we play a game?\n   tinybrain> HOW ABOUT GLOBAL THERMONUCLEAR WAR?\n\n   you> no\n   tinybrain> A STRANGE GAME. THE ONLY WINNING MOVE IS NOT TO PLAY.\n\n   waiting for question\n\n\n   done 0  |  0:00                                   V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 21
+    }
+  ],
+  "disk_sha256": "2e104a81f1f5185f44d20b3980c3e9a3f3c680d50bc0252035bb2c1919f6be27",
+  "vic_registers": "00000000000000000000000000000000001b00000000c8000a60e100000000000000010203010201010203040506075344c00000000000000000000000000000ffffffffffffffff6800f8014e0068000004000045001500a000780150405000004001000000000000680100f80f0000000000110080000000000018d2000000",
+  "graphics": {
+    "effects_loaded": 1,
+    "glow_sha256": "d3439679f6eca5a188a8b24d7a171e82a12bb6b4130b89467bfd6a00314b9536",
+    "vic_registers": "00000000000000000000000000000000001b00000000c8000a60e100000000000000010203010201010203040506075344c00000000000000000000000000000ffffffffffffffff6800f8014e0068000003000045001500a000780150405000004001000000000000680100f80f0000000000110080000000000018d2000000",
+    "first_video_row": "00100110021003100410051006100710081009100a100b100c100d100e100f1010101110121013101410151016101710181019101a101b101c101d101e101f1020102110221023102410251026102710281029102a102b102c102d102e102f1030103110321033103410351036103710381039103a103b103c103d103e103f1040104110421043104410451046104710481049104a104b104c104d104e104f10",
+    "first_colour_row": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "video_standard": "pal",
+    "crt_test": null,
+    "prg_sha256": "291c7c0232f4ce1d360c7ce5f75ea8072e3102b34cc8e68f335f133c5c1d351e",
+    "video_before_54": 64,
+    "video_after_54": 69,
+    "video_before_53": 1,
+    "video_after_53": 1,
+    "glow_load_status": null,
+    "composited_pixels_match": true,
+    "crt_preference_preserved": true,
+    "single_layer": true,
+    "fallback_verified": false,
+    "background_preserved": true
+  },
+  "history_turns": 9,
+  "history_scrolls": 21,
+  "fixed_header_footer": true,
+  "blank_line_between_turns": true
+}

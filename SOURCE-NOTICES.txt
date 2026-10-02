@@ -1,0 +1,130 @@
+TINYBRAIN65 V6.1 trial - 3 October 2026
+
+This trial adds paraphrased hardware facts from the existing official
+MEGA65 user-guide sources, including appendix-sid-registers.tex,
+appendix-viciv-registers.tex and appendix-basic65.tex. These sources and
+the same GFDL notice are included. Fact source/line references are in
+data/hardware-facts.json. Statements about the helper's own capabilities
+and its 640x200 terminal come from this application's source.
+
+The model architecture, tokenizer, native inference and glow are unchanged.
+Training adds hardware question phrasings and uses the frozen V6 model as
+a teacher on old training examples. No teacher runs on the MEGA65.
+The strict replacement gate failed; the result is an optional trial.
+See README.txt and verification/hardware-comparison.json for results.
+
+Historical source and experiment notices follow unchanged:
+MEGAQA source and data notices - 2 October 2026
+
+V6 replays 699 historical successes from V4/V5, adding 671 question rows.
+It protects 80 mandatory examples and selects checkpoints by the actual
+exported C integer runtime, with an unchanged fixed export calibration.
+It adds no facts, parameters, vocabulary, teacher model or runtime lookup.
+All 699 protected cases are training-informed, not independent evidence.
+A newly frozen 144-question benchmark is evaluated only after selection.
+The production D81 is verified in normal-speed Xemu using a private SD
+image. No physical MEGA65 test is claimed. V5 is preserved separately.
+See EXPERIMENT.txt for the fresh test's mixed result and remaining errors.
+
+Previous versions:
+
+V5 adds paired question phrasings and closely related questions with
+different targets: file directory vs BASIC listing, reading vs writing
+memory, and instructions/specifications vs inaccessible live state.
+There are 13,631 additional training questions and no new factual answer
+targets, parameters, vocabulary entries or runtime lookup logic.
+Ordinary answer/gate cross-entropy is used, not a contrastive loss.
+Selected V5 and V4 are compared on a newly frozen 144-question benchmark.
+The selected release has a normal-speed production D81 Xemu run with
+native token and streaming checks. No physical MEGA65 test is claimed.
+V4 is preserved. See EXPERIMENT.txt and README.txt for evidence and limits.
+
+Previous versions:
+
+V4 tests broader natural questions, optional question-token supervision,
+and optional tutorial prose, all at 375,600 parameters. The selected
+release uses richer QA with answer/gate supervision only, chosen on the
+development set before the fresh 96-question language benchmark.
+It adds 12,098 training phrasings, not new factual answer targets.
+This build has PC integer-runtime checks and a compiled D81, but has NOT
+been run in Xemu or on hardware. V3 is preserved separately.
+
+The linked https://mega65.org/upload/mega65-book.pdf is the 8 August 2021
+collected edition, revision 4f7464a5fe12d9f8657718cb0544cec4d9f86674.
+It was inspected for topic coverage, not used verbatim for training.
+The prose experiment used the newer 2026 source revision identified below:
+howcomputerswork.tex, beginninginbasic.tex, text-processing.tex,
+gettingstarted.tex and using-disks.tex. Paragraphs were converted to
+lowercase ASCII, with code/diagrams/tables/control markup omitted, then
+split into bounded language-model training segments. The derived text
+and original chapter sources are included under the same GFDL terms.
+See EXPERIMENT.txt and BOOK-COMPARISON.txt for results and limitations.
+
+V3 tests supervised contrastive question training. The selected release
+uses the matched ordinary fine-tune: the extra loss did not consistently
+improve generalization. Five reviewed groups add D81/PRG workflows and
+the VIC-IV graphics-controller fact. This build has PC integer-runtime
+checks and a compiled D81, but has NOT been run in Xemu or on hardware.
+V1 and V2 remain separate. See EXPERIMENT.txt for all comparisons.
+
+V2 adaptation adds natural/short questions, distracting context and
+explicit unknown targets. Additional reviewed RAM, CPU speed, file
+listing and program-loading recipes address user testing. Identity,
+greetings and requests for clarification describe the demo rather than
+quoting the manuals. The model learns a known/unknown token; an unknown
+decision selects a fixed UI sentence. This is not an answer lookup or a
+calibrated measure of factual confidence. The original v1 remains separate.
+
+OFFICIAL MANUALS AND DERIVED TRAINING TEXT
+MEGA65 User Guide and reference manuals:
+Copyright (C) 2019-2026 Paul Gardner-Stephen, the MEGA Museum of Electronic
+Games & Art e.V., and contributors.
+https://github.com/MEGA65/mega65-user-guide
+Revision: 0210345cd9cf19629010277732280e9e7248771e
+
+The original notice says:
+"This book is made available under the GNU Free Documentation License
+v1.3, or later, if desired."
+The complete original notice is preserved in source/sources/guide/
+common-header.tex; the license is included as GFDL-1.3.txt.
+
+The included manual source files and the manual-derived question/answer
+text are distributed under that same GNU Free Documentation License,
+version 1.3 or any later version. No new invariant sections, front-cover
+texts or back-cover texts are added by this adaptation.
+
+Adaptation history (2 October 2026): selected BASIC Usage/Returns text was
+converted to plain ASCII, shortened and lowercased. Additional short
+questions and answers about BASIC operations, DMA, CPU and memory were
+curated against the source. Multiple question phrasings and reverse
+purpose questions were added for training. These changes were prepared
+for the MEGAQA demo and are not endorsed by the manual's authors.
+
+TAUGHT-QUESTIONS.txt is a readable index. source/data/knowledge.json keeps
+the question sets and source filename/line references. source/data/
+sources.json records the GitHub revision and SHA256 hashes of all three
+supplied PDFs and the inventoried LaTeX files. The PDFs and their full
+extractions are not included in the package and were not trained
+wholesale. Only selected sections underpin the training data.
+
+Training, development, regression and fresh-question sets are included.
+The fresh set contains new wording of taught facts, not new knowledge.
+All reported scores are exact answer matches; no claim of general manual
+mastery or general-purpose language ability is made.
+
+RUNTIME / MODEL ORIGIN
+The transformer architecture and native integer inference engine are
+adapted from the user's GoatSong/SIDLM workspace, including the optimized
+45GS02 kernels developed there. Existing source comments are retained.
+No separate top-level license was found for that supplied project; this
+notice does not assign a new license to pre-existing runtime code.
+The MEGAQA checkpoint was trained from scratch for this demo. It does
+not contain weights from a downloaded general-purpose language model.
+
+XEMU, ROM AND TOOLS
+Xemu is an external dependency: https://github.com/lgblgblgb/xemu
+LLVM-MOS: https://github.com/llvm-mos/llvm-mos-sdk
+No Xemu binary, MEGA65 ROM, SD image or compiler is redistributed here.
+The Windows launcher uses the user's installed tools and a private SD
+image copy. Runtime answers are produced by the native model itself.
+

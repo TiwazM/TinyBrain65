@@ -1,0 +1,317 @@
+{
+  "fast": true,
+  "disk": false,
+  "real_sd": true,
+  "folder": true,
+  "production": false,
+  "controls": {
+    "blinking_block_cursor": true,
+    "f1_example": true,
+    "twelve_examples_wrap": true,
+    "empty_question": true,
+    "input_length_limit": true,
+    "token_limit": true,
+    "case_and_delete": true,
+    "escape_during_answer": true
+  },
+  "prg_sha256": "f2ef29d450bdba191fa0fe54acef88f995f048148e31c433511c89f6a099765d",
+  "model_sha256": "cff9386a1c6070ece37d90c2204ca9b79026f6045c40d7e476b19fa9a5e0b6e2",
+  "results": [
+    {
+      "question": "what is sid",
+      "answer": "sid is the sound interface device, used for sound and music.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 6,
+      "answer_tokens": 21,
+      "seconds": 2,
+      "wall_seconds": 1.970979099998658,
+      "first_token_seconds": 0,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.005432700003439095,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.4755875000046217,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.5510628999982146,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.6276132999992114,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.7031925999981468,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.7525988999987021,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 0.8288866000002599,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 0.9043263999992632,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 0.9803159000002779,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 1.0312193999998271,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 1.1335660000040662,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.1828821000017342,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.2568498000036925,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.332389700000931,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.4128159000028973,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.4899068000013358,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 1.5393954000028316,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 1.6147715000042808,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 1.6904715999990003,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 1.7668327999999747,
+          "state": 2,
+          "tokens": 19
+        },
+        {
+          "wall_seconds": 1.8177769000030821,
+          "state": 2,
+          "tokens": 20
+        },
+        {
+          "wall_seconds": 1.893155800004024,
+          "state": 2,
+          "tokens": 21
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   checking model... ok.\n   ready.\n\n   you> what does edma do?\n   tinybrain> copies or\n\n   you> what is sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n\n\n   waiting for question\n\n\n   done 21  |  0:02                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 0
+    },
+    {
+      "question": "what resolutions can you display",
+      "answer": "basic screen widths are 320 or 640 pixels; heights are 200 or 400.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 9,
+      "answer_tokens": 24,
+      "seconds": 3,
+      "wall_seconds": 2.4806374999971013,
+      "first_token_seconds": 1,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.005482099993969314,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 0.6227185999960057,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 0.6976279999944381,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 0.7751637999972445,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 0.8527594999977737,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 0.9615883999940706,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 1.042671799994423,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 1.151195699996606,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 1.226828699996986,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 1.3045930999942357,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 1.3811002999937045,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 1.4577837999968324,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 1.5081051999950432,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 1.5840714000005391,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 1.6607789999980014,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 1.7373549999974784,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 1.8126860999982455,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 1.889808299994911,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 1.967843799997354,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 2.0185672999941744,
+          "state": 2,
+          "tokens": 19
+        },
+        {
+          "wall_seconds": 2.093262499998673,
+          "state": 2,
+          "tokens": 20
+        },
+        {
+          "wall_seconds": 2.168826099994476,
+          "state": 2,
+          "tokens": 21
+        },
+        {
+          "wall_seconds": 2.2471426999982214,
+          "state": 2,
+          "tokens": 22
+        },
+        {
+          "wall_seconds": 2.323094899998978,
+          "state": 2,
+          "tokens": 23
+        },
+        {
+          "wall_seconds": 2.4011787999988883,
+          "state": 2,
+          "tokens": 24
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n\n   you> what does edma do?\n   tinybrain> copies or\n\n   you> what is sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n   you> what resolutions can you display\n   tinybrain> basic screen widths are 320 or 640 pixels; heights are 200 or\n   400.\n\n   waiting for question\n   _\n\n   done 24  |  0:03                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 2
+    }
+  ],
+  "vic_registers": "00000000000000000000000000000000001b00000000c8000a60e100000000000000010203010201010203040506075344c00000000000000000000000000000ffffffffffffffff6800f8014e0068000004000045001500a000780150405000004001000000000000680100f80f0000000000110080000000000018d2000000",
+  "graphics": {
+    "effects_loaded": 1,
+    "glow_sha256": "d3439679f6eca5a188a8b24d7a171e82a12bb6b4130b89467bfd6a00314b9536",
+    "vic_registers": "00000000000000000000000000000000001b00000000c8000a60e100000000000000010203010201010203040506075344c00000000000000000000000000000ffffffffffffffff6800f8014e0068000003000045001500a000780150405000004001000000000000680100f80f0000000000110080000000000018d2000000",
+    "first_video_row": "00100110021003100410051006100710081009100a100b100c100d100e100f1010101110121013101410151016101710181019101a101b101c101d101e101f1020102110221023102410251026102710281029102a102b102c102d102e102f1030103110321033103410351036103710381039103a103b103c103d103e103f1040104110421043104410451046104710481049104a104b104c104d104e104f10",
+    "first_colour_row": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "video_standard": "pal",
+    "crt_test": null,
+    "prg_sha256": "f2ef29d450bdba191fa0fe54acef88f995f048148e31c433511c89f6a099765d",
+    "video_before_54": 64,
+    "video_after_54": 69,
+    "video_before_53": 0,
+    "video_after_53": 0,
+    "glow_load_status": null,
+    "composited_pixels_match": true,
+    "crt_preference_preserved": true,
+    "single_layer": true,
+    "fallback_verified": false,
+    "background_preserved": true
+  },
+  "history_turns": 3,
+  "history_scrolls": 2,
+  "fixed_header_footer": true,
+  "blank_line_between_turns": true
+}

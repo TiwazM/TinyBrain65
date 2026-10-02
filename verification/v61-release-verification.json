@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "model_sha256": "cff9386a1c6070ece37d90c2204ca9b79026f6045c40d7e476b19fa9a5e0b6e2",
+  "prg_sha256": "291c7c0232f4ce1d360c7ce5f75ea8072e3102b34cc8e68f335f133c5c1d351e",
+  "disk_sha256": "2e104a81f1f5185f44d20b3980c3e9a3f3c680d50bc0252035bb2c1919f6be27",
+  "parameters": 375600,
+  "model_bytes": 515638,
+  "inference_tokenizer_and_glow_unchanged": true,
+  "production_normal_questions": 3,
+  "production_fast_questions": 9,
+  "sd_folder_questions": 2,
+  "normal_seconds": [
+    27.64,
+    18.66,
+    33.48
+  ],
+  "strict_replacement_gate_passed": false,
+  "physical_mega65_tested": false
+}

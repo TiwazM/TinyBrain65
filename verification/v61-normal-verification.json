@@ -1,0 +1,380 @@
+{
+  "fast": false,
+  "disk": true,
+  "real_sd": true,
+  "folder": false,
+  "production": true,
+  "controls": {
+    "blinking_block_cursor": true,
+    "hardware_f1": true
+  },
+  "prg_sha256": "291c7c0232f4ce1d360c7ce5f75ea8072e3102b34cc8e68f335f133c5c1d351e",
+  "model_sha256": "cff9386a1c6070ece37d90c2204ca9b79026f6045c40d7e476b19fa9a5e0b6e2",
+  "results": [
+    {
+      "question": "what is sid",
+      "answer": "sid is the sound interface device, used for sound and music.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 6,
+      "answer_tokens": 21,
+      "seconds": 27,
+      "wall_seconds": 27.640162299998337,
+      "first_token_seconds": 6,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.07955079999373993,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 6.179815699993924,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 7.179279799995129,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 8.120318199995381,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 9.099248199992871,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 10.279588199999125,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 11.279889899997215,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 12.279813899993314,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 13.27913489999628,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 14.260279699999955,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 15.240296899995883,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 16.399915999994846,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 17.400395199998457,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 18.380038599992986,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 19.36028179999994,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 20.3403776999985,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 21.50034329999471,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 22.481070299996645,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 23.480267599996296,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 24.480203399994934,
+          "state": 2,
+          "tokens": 19
+        },
+        {
+          "wall_seconds": 25.48042549999809,
+          "state": 2,
+          "tokens": 20
+        },
+        {
+          "wall_seconds": 26.620829399995273,
+          "state": 2,
+          "tokens": 21
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   checking model... ok.\n   ready.\n\n   you> what is sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n\n\n\n\n\n   waiting for question\n   _\n\n   done 21  |  0:27                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 0
+    },
+    {
+      "question": "do you have a sound chip",
+      "answer": "the mega65 has four sid sound chips.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 10,
+      "answer_tokens": 9,
+      "seconds": 19,
+      "wall_seconds": 18.66094560000056,
+      "first_token_seconds": 9,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.07963490000111051,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 9.540187800004787,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 10.539882800003397,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 11.54010350000317,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 12.540193700006057,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 13.520092500002647,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 14.500552200006496,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 15.479635400006373,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 16.6607770000046,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 17.640752500003146,
+          "state": 2,
+          "tokens": 9
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n   checking model... ok.\n   ready.\n\n   you> what is sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n   you> do you have a sound chip\n   tinybrain> the mega65 has four sid sound chips.\n\n\n\n   waiting for question\n   _\n\n   done 9  |  0:19                                   V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 0
+    },
+    {
+      "question": "what resolutions can you display",
+      "answer": "basic screen widths are 320 or 640 pixels; heights are 200 or 400.",
+      "abstained": false,
+      "gate_token": 5,
+      "prompt_tokens": 9,
+      "answer_tokens": 24,
+      "seconds": 33,
+      "wall_seconds": 33.480373500002315,
+      "first_token_seconds": 8,
+      "streaming_events": [
+        {
+          "wall_seconds": 0.07908200000383658,
+          "state": 1,
+          "tokens": 0
+        },
+        {
+          "wall_seconds": 8.579289000001154,
+          "state": 2,
+          "tokens": 1
+        },
+        {
+          "wall_seconds": 9.539108600001782,
+          "state": 2,
+          "tokens": 2
+        },
+        {
+          "wall_seconds": 10.739291800004139,
+          "state": 2,
+          "tokens": 3
+        },
+        {
+          "wall_seconds": 11.739349499999662,
+          "state": 2,
+          "tokens": 4
+        },
+        {
+          "wall_seconds": 12.739460700002383,
+          "state": 2,
+          "tokens": 5
+        },
+        {
+          "wall_seconds": 13.720147699998051,
+          "state": 2,
+          "tokens": 6
+        },
+        {
+          "wall_seconds": 14.719504400003643,
+          "state": 2,
+          "tokens": 7
+        },
+        {
+          "wall_seconds": 15.679635500004224,
+          "state": 2,
+          "tokens": 8
+        },
+        {
+          "wall_seconds": 16.859884199999215,
+          "state": 2,
+          "tokens": 9
+        },
+        {
+          "wall_seconds": 17.780005799999344,
+          "state": 2,
+          "tokens": 10
+        },
+        {
+          "wall_seconds": 18.779844000004232,
+          "state": 2,
+          "tokens": 11
+        },
+        {
+          "wall_seconds": 19.919841100003396,
+          "state": 2,
+          "tokens": 12
+        },
+        {
+          "wall_seconds": 20.899799099999655,
+          "state": 2,
+          "tokens": 13
+        },
+        {
+          "wall_seconds": 21.879764099998283,
+          "state": 2,
+          "tokens": 14
+        },
+        {
+          "wall_seconds": 22.87971010000183,
+          "state": 2,
+          "tokens": 15
+        },
+        {
+          "wall_seconds": 24.0607633000036,
+          "state": 2,
+          "tokens": 16
+        },
+        {
+          "wall_seconds": 25.060762000000977,
+          "state": 2,
+          "tokens": 17
+        },
+        {
+          "wall_seconds": 26.039996200001042,
+          "state": 2,
+          "tokens": 18
+        },
+        {
+          "wall_seconds": 26.980096400002367,
+          "state": 2,
+          "tokens": 19
+        },
+        {
+          "wall_seconds": 28.161325599998236,
+          "state": 2,
+          "tokens": 20
+        },
+        {
+          "wall_seconds": 29.140734400003566,
+          "state": 2,
+          "tokens": 21
+        },
+        {
+          "wall_seconds": 30.141028700003517,
+          "state": 2,
+          "tokens": 22
+        },
+        {
+          "wall_seconds": 31.300328700002865,
+          "state": 2,
+          "tokens": 23
+        },
+        {
+          "wall_seconds": 32.261011299997335,
+          "state": 2,
+          "tokens": 24
+        }
+      ],
+      "scripted_reply": false,
+      "answer_matches_expected": true,
+      "native_tokens_exact": true,
+      "screen": "\n   ########### ### ###################### ##########\n    ##   #  #### ### #############  #  ######## ###\n    ##   #  # ##  #  #  ##### #  #  #  # #### ##   #\n    ## ######  #  #  ### ## ###  #######  # ### ###\n   MEGA65 local helper                              375K PARAMS * 4-BIT * LOCAL\n   --------------------------------------------------------------------------\n\n\n   you> what is sid\n   tinybrain> sid is the sound interface device, used for sound and music.\n\n   you> do you have a sound chip\n   tinybrain> the mega65 has four sid sound chips.\n\n   you> what resolutions can you display\n   tinybrain> basic screen widths are 320 or 640 pixels; heights are 200 or\n   400.\n\n   waiting for question\n   _\n\n   done 24  |  0:33                                  V6.1 * trust, but verify\n   --------------------------------------------------------------------------\n   return: ask    |  f1: next example      |  esc: clear / stop  |  del: edit",
+      "history_scrolls": 2
+    }
+  ],
+  "disk_sha256": "2e104a81f1f5185f44d20b3980c3e9a3f3c680d50bc0252035bb2c1919f6be27",
+  "vic_registers": "00000000000000000000000000000000001b00000000c8000a60e100000000000000010203010201010203040506075344c00000000000000000000000000000ffffffffffffffff6800f8014e0068000004000045001500a000780150405000004001000000000000680100f80f0000000000110080000000000018d2000000",
+  "graphics": {
+    "effects_loaded": 1,
+    "glow_sha256": "d3439679f6eca5a188a8b24d7a171e82a12bb6b4130b89467bfd6a00314b9536",
+    "vic_registers": "00000000000000000000000000000000001b00000000c8000a60e100000000000000010203010201010203040506075344c00000000000000000000000000000ffffffffffffffff6800f8014e0068000003000045001500a000780150405000004001000000000000680100f80f0000000000110080000000000018d2000000",
+    "first_video_row": "00100110021003100410051006100710081009100a100b100c100d100e100f1010101110121013101410151016101710181019101a101b101c101d101e101f1020102110221023102410251026102710281029102a102b102c102d102e102f1030103110321033103410351036103710381039103a103b103c103d103e103f1040104110421043104410451046104710481049104a104b104c104d104e104f10",
+    "first_colour_row": "00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+    "video_standard": "pal",
+    "crt_test": null,
+    "prg_sha256": "291c7c0232f4ce1d360c7ce5f75ea8072e3102b34cc8e68f335f133c5c1d351e",
+    "video_before_54": 64,
+    "video_after_54": 69,
+    "video_before_53": 1,
+    "video_after_53": 1,
+    "glow_load_status": null,
+    "composited_pixels_match": true,
+    "crt_preference_preserved": true,
+    "single_layer": true,
+    "fallback_verified": false,
+    "background_preserved": true
+  },
+  "history_turns": 3,
+  "history_scrolls": 2,
+  "fixed_header_footer": true,
+  "blank_line_between_turns": true
+}

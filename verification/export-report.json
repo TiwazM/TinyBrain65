@@ -1,0 +1,24 @@
+{
+  "bytes": 515638,
+  "linear_params": 276480,
+  "embed_params": 98304,
+  "kv_cache_bytes": 73728,
+  "parameters": 375600,
+  "config": {
+    "vocab": 1024,
+    "n_ctx": 128,
+    "d_model": 96,
+    "n_layer": 3,
+    "n_head": 4,
+    "d_ff": 192,
+    "dropout": 0.0,
+    "rope_base": 10000.0
+  },
+  "sha256": "cff9386a1c6070ece37d90c2204ca9b79026f6045c40d7e476b19fa9a5e0b6e2",
+  "fnv1a": 3496224876,
+  "checkpoint_sha256": "b10a048587e7b2f28bcac3a25b729adfa1b6002b2d3101fc2d053b5f9e61e0c7",
+  "calibration_examples": 512,
+  "storage": "int4 weights in one byte per weight; int8 input embeddings; int4 KV cache",
+  "gate": "known=5, unknown=6; no numerical confidence claim",
+  "calibration_sha256": "6e5c3b40613d6b622c346d78bf4ee466f36dd4ab3fd93c00c4c688ec5bf0017a"
+}

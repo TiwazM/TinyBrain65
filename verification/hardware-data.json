@@ -1,0 +1,11 @@
+{
+  "new_train": 1862,
+  "new_dev": 50,
+  "fresh_test": 54,
+  "facts": 16,
+  "new_fact_count": 10,
+  "parameters": 375600,
+  "tokenizer_unchanged": true,
+  "test_sha256": "e1a16d94f206b5d560d4c2e0b28038091d9767bee70ad14abdbf3e619be36103",
+  "note": "User examples are trained regressions. Dev is for selection; test is frozen before training and opened after selection. Manual facts are paraphrased; common BASIC sizes are not claimed to be all hardware modes."
+}
