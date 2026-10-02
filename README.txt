@@ -18,7 +18,7 @@ A tiny language model running directly on the **MEGA65**, answering short questi
 In the Freezer, browse to that folder and mount `TINYBR61.D81` on unit 8. Resume BASIC, then:
 
 ```basic
-DLOAD "TINYBR61"
+DLOAD "TINYBR61",U8
 RUN
 ```
 
