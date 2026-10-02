@@ -15,13 +15,11 @@ A tiny language model running directly on the **MEGA65**, answering short questi
 
 ## Run it
 
-Copy `SD-CARD/TINYBR61` to your SD card, keeping `TINYBR61.D81`, `MEGAQA.BIN` and `GLOW.BIN` together. In BASIC:
+In the Freezer, browse to that folder and mount `TINYBR61.D81` on unit 8. Resume BASIC, then:
 
 ```basic
-CHDIR "/",U12
-CHDIR "TINYBR61",U12
-MOUNT "TINYBR61.D81"
-RUN "TINYBR61",U8
+DLOAD "TINYBR61"
+RUN
 ```
 
 **RETURN:** ask · **F1:** next example · **DEL:** edit · **ESC:** stop/clear
